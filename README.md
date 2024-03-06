@@ -1,4 +1,4 @@
-# GameDesignTifa
+# Game Design Tifa
 Game 2 for Game Design
 
 Member Roles (TBD): <br />
