@@ -1,7 +1,7 @@
 # GameDesignTifa
 Game 2 for Game Design
 
-Member Roles (TBD):
+Member Roles (TBD): <br />
 Bryce: Level Design
 Lucas: Story, UI/ UX Design
 Gavin: Model Design
