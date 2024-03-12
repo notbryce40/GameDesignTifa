@@ -8,7 +8,7 @@ public class GlobalVars : MonoBehaviour
     //It is easy to store time in military, conversions would be needed
     public static int CurrentTime = 0;
 
-    // Toggles the clock
+    // Toggles the clock counter on
     public static bool ClockActive = true;
 
 

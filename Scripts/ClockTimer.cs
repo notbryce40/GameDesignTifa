@@ -14,12 +14,13 @@ public class ClockTimer : MonoBehaviour
             Dtime -= Time.deltaTime;
             if (Dtime <= 0.0f)
             {
+                GlobalVars.CurrentTime++;
                 // sets time to 0 if it is 24 
-                if (GlobalVars.CurrentTime == 24)
+                if (GlobalVars.CurrentTime > 24)
                 {
                     GlobalVars.CurrentTime = 0;
                 }
-                GlobalVars.CurrentTime++;
+               
 
                 //Debug.Log("Time" + GlobalVars.CurrentTime);
                 //Debug.Log("TimeCON" + MilitaryConvert());
@@ -144,6 +145,11 @@ public class ClockTimer : MonoBehaviour
             Rtime = 11;
         }
         else if (GlobalVars.CurrentTime == 24)
+        {
+            Rtime = 12;
+        }
+        //handles an error event due to the timer
+        else
         {
             Rtime = 12;
         }
