@@ -11,6 +11,9 @@ public class GlobalVars : MonoBehaviour
     // Toggles the clock counter on
     public static bool ClockActive = true;
 
+    // Keeps the days,starts at one
+    public static int Days = 1;
+
 
 
     /*
@@ -21,6 +24,11 @@ public class GlobalVars : MonoBehaviour
       int Re =  CTtimer.MilitaryConvert();
         return Re;
     }
+
+    but calling this also works and looks nicer
+    just make sure to put the public thing at the start of the class, see FunctionTesting
+    public ClockTimer CTtimer;
+    int Re = CTtimer.MilitaryConvert();
     */
 
 }
