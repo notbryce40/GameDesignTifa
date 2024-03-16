@@ -189,3 +189,133 @@ Received Import Request.
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63c1a1adcc7cf1663e2323e45244806') in 0.001845 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 187.467323 seconds.
+  path: Assets/_GameDesignTifa/Scripts
+  artifactKey: Guid(ece7ce4774e0b5d4ab254f9087fe2286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts using Guid(ece7ce4774e0b5d4ab254f9087fe2286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903755de5a015e763027fccc172d8f5d') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.234749 seconds.
+  path: Assets/_GameDesignTifa/Scripts/Menu.cs
+  artifactKey: Guid(0c9fc3340d382824aa9f97db75c6b6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/Menu.cs using Guid(0c9fc3340d382824aa9f97db75c6b6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6643ffe670ef411eb7b0eb32254409a9') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.012419 seconds.
+  path: Assets/_GameDesignTifa/Scripts/GlobalVars.cs
+  artifactKey: Guid(ac2dad436c3cda54fb29a269cee315d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/GlobalVars.cs using Guid(ac2dad436c3cda54fb29a269cee315d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f7ca33d83e340f7775f161a6a56596') in 0.000390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.923011 seconds.
+  path: Assets/_GameDesignTifa/Scripts/FunctionTesting.cs
+  artifactKey: Guid(bb8527ac7bb6c35468a1a94e65175d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/FunctionTesting.cs using Guid(bb8527ac7bb6c35468a1a94e65175d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8db6195ddc5356a00a24c6451735a5a') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.915608 seconds.
+  path: Assets/_GameDesignTifa/Scripts/DayCounter.cs
+  artifactKey: Guid(976cb4c5a3e55234682aac0213b35db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/DayCounter.cs using Guid(976cb4c5a3e55234682aac0213b35db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb0058c213cd403081db7f930b9ca3c') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.769892 seconds.
+  path: Assets/_GameDesignTifa/Scripts/ClockTimer.cs
+  artifactKey: Guid(aff6dddbb4cea8c4192785f6acd3a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/ClockTimer.cs using Guid(aff6dddbb4cea8c4192785f6acd3a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621159058b2ac1028c4963644c8fa553') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.826035 seconds.
+  path: Assets/_GameDesignTifa/Images/Main Menu.jpg
+  artifactKey: Guid(a21ad241b94d06741b3eb95f17e4b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Images/Main Menu.jpg using Guid(a21ad241b94d06741b3eb95f17e4b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05323c891f42ae1ac46a5e3d19ce81b7') in 0.068812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.312 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 985ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3618.
+Memory consumption went from 130.3 MB to 130.2 MB.
+Total: 2.739700 ms (FindLiveObjects: 0.183800 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.428600 ms  DeleteObjects: 0.038400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49261.590969 seconds.
+  path: Assets/UI Toolkit/PanelSettings.asset
+  artifactKey: Guid(439ccd587cf45af4daa22a22088850af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(439ccd587cf45af4daa22a22088850af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a00e79fa7b678af27a272789d023df') in 0.033066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
