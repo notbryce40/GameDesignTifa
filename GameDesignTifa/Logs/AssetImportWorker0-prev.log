@@ -15,7 +15,7 @@ C:/Users/gvina/OneDrive/Documents/GameDesignTifa/GameDesignTifa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59797
+60457
 Successfully changed project path to: C:/Users/gvina/OneDrive/Documents/GameDesignTifa/GameDesignTifa
 C:/Users/gvina/OneDrive/Documents/GameDesignTifa/GameDesignTifa
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/gvina/OneDrive/Documents/GameDesignTifa/GameDesignTifa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22116] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3149031157 [EditorId] 3149031157 [Version] 1048832 [Id] WindowsEditor(7,GavinLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23180] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1823219821 [EditorId] 1823219821 [Version] 1048832 [Id] WindowsEditor(7,GavinLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22116] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3149031157 [EditorId] 3149031157 [Version] 1048832 [Id] WindowsEditor(7,GavinLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23180] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1823219821 [EditorId] 1823219821 [Version] 1048832 [Id] WindowsEditor(7,GavinLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 9.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012877 seconds.
-- Loaded All Assemblies, in  0.440 seconds
+Registered in 0.010787 seconds.
+- Loaded All Assemblies, in  0.391 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 350 ms
+Android Extension - Scanning For ADB Devices 270 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.767 seconds
-Domain Reload Profiling: 1205ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 1029ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (130ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (155ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (767ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (641ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (703ms)
+		SetupLoadedEditorAssemblies (579ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (497ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (399ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 1205ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.906 seconds
-Domain Reload Profiling: 1685ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1402ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (473ms)
-		LoadAssemblies (389ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (294ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (159ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (906ms)
+	FinalizeReload (757ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (681ms)
+		SetupLoadedEditorAssemblies (584ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (544ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3561.
-Memory consumption went from 128.1 MB to 128.1 MB.
-Total: 3.524000 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.092700 ms MarkObjects: 3.027500 ms  DeleteObjects: 0.119200 ms)
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 4.004200 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.167500 ms MarkObjects: 3.270600 ms  DeleteObjects: 0.230400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -188,41 +188,102 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8195.168289 seconds.
+  Time since last request: 8735.608359 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx
+  artifactKey: Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx using Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96027331ac679b37c8304db49a960f86') in 0.136604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 130.415816 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx
+  artifactKey: Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx using Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21ded9add5835694b376387396441f3') in 0.158950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 80.337390 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx
+  artifactKey: Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx using Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a982bb2f5de9a33ec4062561d6d536c5') in 0.029563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 713.020424 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/BackWallDoor.fbx
+  artifactKey: Guid(c4968f345a765b743b1950ad51a1e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/BackWallDoor.fbx using Guid(c4968f345a765b743b1950ad51a1e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990f6e0f17083ac2bc9c93445b6bc995') in 0.073284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerBackDoor2.fbx
+  artifactKey: Guid(211c1e2ad707e0d4cbb5c976ed060ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerBackDoor2.fbx using Guid(211c1e2ad707e0d4cbb5c976ed060ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebbfd8b6c52a148da2efb7ae72cf95b') in 0.087622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
   path: Assets/_GameDesignTifa/FBX/Map/Wall3.fbx
   artifactKey: Guid(f67eeb1f45e565c4aa7af383b32c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameDesignTifa/FBX/Map/Wall3.fbx using Guid(f67eeb1f45e565c4aa7af383b32c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf6bce80c3aec66509130be5b018808') in 0.143978 seconds
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall3.fbx using Guid(f67eeb1f45e565c4aa7af383b32c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd6ba0f0482a8898e65b0cb53ccec3f') in 0.053007 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/_GameDesignTifa/FBX/Map
-  artifactKey: Guid(30b158da9c7594f40a2a9c38b8444d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameDesignTifa/FBX/Map using Guid(30b158da9c7594f40a2a9c38b8444d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb1f2b1e08c5a4d4c1daa555c14c76d') in 0.000579 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Wall2.fbx
+  artifactKey: Guid(ecb89cafc50066c4ba0bc56306a893ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall2.fbx using Guid(ecb89cafc50066c4ba0bc56306a893ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b3e4790dcc72e20d0551f2db307c9b') in 0.034736 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
+  Time since last request: 0.000030 seconds.
   path: Assets/_GameDesignTifa/FBX/Map/Wall1.fbx
   artifactKey: Guid(fc84a47629a1809419450939248ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameDesignTifa/FBX/Map/Wall1.fbx using Guid(fc84a47629a1809419450939248ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec470419aeb8246006d9be7243eab95') in 0.032142 seconds
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall1.fbx using Guid(fc84a47629a1809419450939248ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006274d111e9e942512b5b57fd20c8c4') in 0.033448 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerBackDoor.fbx
+  artifactKey: Guid(51b302d826ac1e7448654fbe95c53a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerBackDoor.fbx using Guid(51b302d826ac1e7448654fbe95c53a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff35e2f2db2f20c02ac66b068643972') in 0.031088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
   path: Assets/_GameDesignTifa/FBX/Map/Floor.fbx
   artifactKey: Guid(b5b0162c25084da499bb1e795404bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameDesignTifa/FBX/Map/Floor.fbx using Guid(b5b0162c25084da499bb1e795404bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb1a6dda80362953aa576d5d24af7d4') in 0.022629 seconds
+Start importing Assets/_GameDesignTifa/FBX/Map/Floor.fbx using Guid(b5b0162c25084da499bb1e795404bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda7888ed2c08bc667d3b40b923b1240') in 0.022390 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/_GameDesignTifa/FBX/Map/Wall4.fbx
-  artifactKey: Guid(80bb1802c8368b54286765f88bf0bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameDesignTifa/FBX/Map/Wall4.fbx using Guid(80bb1802c8368b54286765f88bf0bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d12ff9e483de766a56cf08e6b1a0531') in 0.028100 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Corner4.fbx
+  artifactKey: Guid(f06b599551184a04c9a65816f7a88d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Corner4.fbx using Guid(f06b599551184a04c9a65816f7a88d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9767560b477d57c43689e0a3ba6e8635') in 0.030836 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Wall4.fbx
+  artifactKey: Guid(80bb1802c8368b54286765f88bf0bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall4.fbx using Guid(80bb1802c8368b54286765f88bf0bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bf0c7f6e4fa4c08446475a2cbb0454') in 0.034359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
