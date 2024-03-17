@@ -406,6 +406,7 @@
 "Assets/_GameDesignTifa/Scripts/NPCMovement.cs"
 "Assets/_GameDesignTifa/Scripts/ObjectDrag.cs"
 "Assets/_GameDesignTifa/Scripts/PlaceableObject.cs"
+"Assets/_GameDesignTifa/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic
