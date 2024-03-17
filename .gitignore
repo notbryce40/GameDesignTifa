@@ -1,6 +1,6 @@
 # Unity specific
-Temp/
-Library/
+/GameDesignTifa/Temp/
+/GameDesignTifa/Library/
 
 # OS-specific files
 .DS_Store
