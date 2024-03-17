@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16295 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 31864 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+D:\2022.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Ashley/Documents/GitHub/GameDesignTifa/GameDesignTifa
+C:/Users/Bryces Desktop/Documents/GitHub/GameDesignTifa/GameDesignTifa
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-56350
-Successfully changed project path to: C:/Users/Ashley/Documents/GitHub/GameDesignTifa/GameDesignTifa
-C:/Users/Ashley/Documents/GitHub/GameDesignTifa/GameDesignTifa
+49424
+Successfully changed project path to: C:/Users/Bryces Desktop/Documents/GitHub/GameDesignTifa/GameDesignTifa
+C:/Users/Bryces Desktop/Documents/GitHub/GameDesignTifa/GameDesignTifa
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/Ashley/Documents/GitHub/GameDesignTifa/GameDesignTifa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20880] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 2524282940 [EditorId] 2524282940 [Version] 1048832 [Id] WindowsEditor(7,Jupiter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34584] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 284430352 [EditorId] 284430352 [Version] 1048832 [Id] WindowsEditor(7,Joe-Mama) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20880] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 2524282940 [EditorId] 2524282940 [Version] 1048832 [Id] WindowsEditor(7,Jupiter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34584] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 284430352 [EditorId] 284430352 [Version] 1048832 [Id] WindowsEditor(7,Joe-Mama) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 8.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ashley/Documents/GitHub/GameDesignTifa/GameDesignTifa/Assets
+[Subsystems] Discovering subsystems at path D:/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Bryces Desktop/Documents/GitHub/GameDesignTifa/GameDesignTifa/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2207)
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
     Vendor:   NVIDIA
-    VRAM:     8017 MB
+    VRAM:     12012 MB
     Driver:   31.0.15.5161
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Mono path[0] = 'D:/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006746 seconds.
-- Loaded All Assemblies, in  0.248 seconds
-Native extension for UWP target not found
+Register platform support module: D:/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002796 seconds.
+- Loaded All Assemblies, in  0.201 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.184 seconds
-Domain Reload Profiling: 430ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.159 seconds
+Domain Reload Profiling: 360ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (93ms)
-		LoadAssemblies (79ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (75ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (184ms)
+	FinalizeReload (159ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (144ms)
+		SetupLoadedEditorAssemblies (123ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (100ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,59 +117,60 @@ Domain Reload Profiling: 430ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.448 seconds
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Native extension for UWP target not found
+- Loaded All Assemblies, in  0.383 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.392 seconds
-Domain Reload Profiling: 837ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (275ms)
-		LoadAssemblies (228ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (181ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (91ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (392ms)
+	FinalizeReload (345ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (297ms)
+		SetupLoadedEditorAssemblies (261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3610.
-Memory consumption went from 128.7 MB to 128.7 MB.
-Total: 3.465500 ms (FindLiveObjects: 0.343300 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.960900 ms  DeleteObjects: 0.078500 ms)
+Unloading 3522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (115.0 KB). Loaded Objects now: 3986.
+Memory consumption went from 142.8 MB to 142.7 MB.
+Total: 7.031100 ms (FindLiveObjects: 0.456300 ms CreateObjectMapping: 0.097500 ms MarkObjects: 6.302700 ms  DeleteObjects: 0.173400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -181,3 +182,256 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2128839.319890 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Blue.png
+  artifactKey: Guid(f567ed64624c60444914722fbe1cee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Blue.png using Guid(f567ed64624c60444914722fbe1cee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ca8e781e48e71dfaedb0ac4d70a4b7') in 0.002465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.407474 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Green.png
+  artifactKey: Guid(a36f7aa6d9d45e14c8a942398aa6f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Green.png using Guid(a36f7aa6d9d45e14c8a942398aa6f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81addf28b5f99584a447a63580637ab9') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.223815 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Red.png
+  artifactKey: Guid(f0463186e997f36448fb3d42cf65bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Red.png using Guid(f0463186e997f36448fb3d42cf65bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce70a31f5ee0ebefc6631163b2bb058e') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.421753 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e45fd5bc7456b2b83f8fa9128bbed41') in 0.074217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 191.698454 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 01/Bricks Texture 01 diffuse.tga
+  artifactKey: Guid(7faa2695f953d8c4faf592fe7629c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 01/Bricks Texture 01 diffuse.tga using Guid(7faa2695f953d8c4faf592fe7629c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949c5add093f20d63e996ba09a63735d') in 0.011616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.048292 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 02/Bricks Texture 02 diffuse.tga
+  artifactKey: Guid(12e9b4a5640131041b81b352e20aa1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 02/Bricks Texture 02 diffuse.tga using Guid(12e9b4a5640131041b81b352e20aa1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0656b79817a1c5a00ab42342e471c73c') in 0.009475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.456676 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 03/Bricks Texture 03 diffuse.tga
+  artifactKey: Guid(2fc7cd8b7a573594d95face7cd55dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 03/Bricks Texture 03 diffuse.tga using Guid(2fc7cd8b7a573594d95face7cd55dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e436b64322be07cff06e58f8a8ee3af') in 0.010283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029701 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 04/Bricks Texture 04 diffuse.tga
+  artifactKey: Guid(c80fb2559f15b2948a3c0d51662da382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 04/Bricks Texture 04 diffuse.tga using Guid(c80fb2559f15b2948a3c0d51662da382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac268c50288619f7186892b0a54109e8') in 0.009317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.742176 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 05/Bricks Texture 05 diffuse.tga
+  artifactKey: Guid(8d0e7207f02ad9e478bd26aad37a4b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 05/Bricks Texture 05 diffuse.tga using Guid(8d0e7207f02ad9e478bd26aad37a4b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f178c5b87e59f92251a4fcf14c1dd510') in 0.019019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.413120 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 06/Bricks Texture 06 diffuse.tga
+  artifactKey: Guid(9c111b4dddcaa4447a7de8419b2ad7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 06/Bricks Texture 06 diffuse.tga using Guid(9c111b4dddcaa4447a7de8419b2ad7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9d4e69c4ab3f667050d194006474f1') in 0.009789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.240493 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 07/Bricks Texture 07 diffuse.tga
+  artifactKey: Guid(18343bde360ab9b40b20ab49606d8af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 07/Bricks Texture 07 diffuse.tga using Guid(18343bde360ab9b40b20ab49606d8af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469f51e2e874a4563053234d66fa4ee9') in 0.009429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.385142 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 15/Bricks Texture 15 normal.tga
+  artifactKey: Guid(982fd9918ffefdf4abd79e27044c17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 15/Bricks Texture 15 normal.tga using Guid(982fd9918ffefdf4abd79e27044c17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5256512850a9fe8ce6a51facef2c65f') in 0.014431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.061284 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 14/Bricks Texture 14 normal.tga
+  artifactKey: Guid(39a47010534cc8f4fbb83e6b3e1954f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 14/Bricks Texture 14 normal.tga using Guid(39a47010534cc8f4fbb83e6b3e1954f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c056e15830c227cfbfcd48514708a58') in 0.014950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.280625 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 13/Bricks Texture 13 normal.tga
+  artifactKey: Guid(c8a5c77e1afa8134595707a0492cfe31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 13/Bricks Texture 13 normal.tga using Guid(c8a5c77e1afa8134595707a0492cfe31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dc93ce25c4a775f9a02ef354def367') in 0.009869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034057 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 12/Bricks Texture 12 normal.tga
+  artifactKey: Guid(7df0ebbf3cad5c64f80433628e29bda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 12/Bricks Texture 12 normal.tga using Guid(7df0ebbf3cad5c64f80433628e29bda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa1ccd2236266f288d798434a4ee1ba') in 0.010228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.290917 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 11/Bricks Texture 11 normal.tga
+  artifactKey: Guid(af47e64f1a3037c48acdb466ad414da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 11/Bricks Texture 11 normal.tga using Guid(af47e64f1a3037c48acdb466ad414da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3481d3c5ce7b5d1916e9e15e8b1b4294') in 0.010261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.043775 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 10/Bricks Texture 10 normal.tga
+  artifactKey: Guid(d5e4198008248aa4383d170362c078ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 10/Bricks Texture 10 normal.tga using Guid(d5e4198008248aa4383d170362c078ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5133ded71cfb5345fe185b456e8b42') in 0.010770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046651 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 09/Bricks Texture 09 normal.tga
+  artifactKey: Guid(7b713b748470bcd49a15d79d15590a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 09/Bricks Texture 09 normal.tga using Guid(7b713b748470bcd49a15d79d15590a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a57c2da10737bd6cb9531f23532894') in 0.010343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.302212 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 08/Bricks Texture 08 normal.tga
+  artifactKey: Guid(fdc3e28019d7b8d43b64975a74536517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 08/Bricks Texture 08 normal.tga using Guid(fdc3e28019d7b8d43b64975a74536517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffc8de8e997254a0b9337716300f5bb') in 0.009698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033424 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 08/Bricks Texture 08 diffuse.tga
+  artifactKey: Guid(9a8d6cda162b8cb48a4386c48878b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 08/Bricks Texture 08 diffuse.tga using Guid(9a8d6cda162b8cb48a4386c48878b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bd918f798873be438a258cc1376329') in 0.009621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 546.213999 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/BackWallDoor.fbx
+  artifactKey: Guid(c4968f345a765b743b1950ad51a1e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/BackWallDoor.fbx using Guid(c4968f345a765b743b1950ad51a1e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e56c46cffc27277b658b18bd09b3a88') in 0.043118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerBackDoor2.fbx
+  artifactKey: Guid(211c1e2ad707e0d4cbb5c976ed060ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerBackDoor2.fbx using Guid(211c1e2ad707e0d4cbb5c976ed060ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f7afebebdb27545637b4db3616682b') in 0.013939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Wall3.fbx
+  artifactKey: Guid(f67eeb1f45e565c4aa7af383b32c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall3.fbx using Guid(f67eeb1f45e565c4aa7af383b32c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef849fd53dc241b9aeb4d220e32c11d') in 0.017154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Wall2.fbx
+  artifactKey: Guid(ecb89cafc50066c4ba0bc56306a893ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall2.fbx using Guid(ecb89cafc50066c4ba0bc56306a893ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009b18e47163588fa48c2b2b3d518b3c') in 0.013392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Corner2.fbx
+  artifactKey: Guid(0b8654bb93e8c4a4a840e794f002d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Corner2.fbx using Guid(0b8654bb93e8c4a4a840e794f002d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eea6c3988d1942a5e8ef36fbab91b2') in 0.018516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Wall1.fbx
+  artifactKey: Guid(fc84a47629a1809419450939248ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall1.fbx using Guid(fc84a47629a1809419450939248ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91687a48f6048e3230615f23a725d265') in 0.011947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerDoor2.fbx
+  artifactKey: Guid(e854f9212940af345811069bfc29365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerDoor2.fbx using Guid(e854f9212940af345811069bfc29365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952b74ef20c6dd1e2db25e248bf542a6') in 0.027504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerBackDoor.fbx
+  artifactKey: Guid(51b302d826ac1e7448654fbe95c53a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerBackDoor.fbx using Guid(51b302d826ac1e7448654fbe95c53a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27867a183eb196155c043de91ae3203e') in 0.013846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx
+  artifactKey: Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/CornerDoor.fbx using Guid(59f8c68f35cca1547a95419aeec05be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db80a36192fb601b61d4ecff6e3fa630') in 0.032456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Floor.fbx
+  artifactKey: Guid(b5b0162c25084da499bb1e795404bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Floor.fbx using Guid(b5b0162c25084da499bb1e795404bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e157e3b77d1d4eaaf1bf24ab666ab3dd') in 0.012310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_GameDesignTifa/FBX/Map/Wall4.fbx
+  artifactKey: Guid(80bb1802c8368b54286765f88bf0bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Map/Wall4.fbx using Guid(80bb1802c8368b54286765f88bf0bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a00191f0785e577e06e27cc433443e2') in 0.010949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
