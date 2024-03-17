@@ -5,14 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-
+    public AudioSource audio;
+    
     public void OnPlayButton()
     {
         SceneManager.LoadScene(1);
+        
     }
 
     public void OnQuitButton()
     {
         Application.Quit();
+        
+    }
+
+    public void playNoise()
+    {
+        audio.Play();
     }
 }
