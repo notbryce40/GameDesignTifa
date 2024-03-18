@@ -6311,6 +6311,8 @@ MonoBehaviour:
   walkSpeed: 5
   isHoldingBox: 0
   isWalking: 0
+  currentShelf: {fileID: 0}
+  playerHand: {fileID: 0}
 --- !u!136 &1490245848
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7772,7 +7774,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Current Order:'
+  m_Text: 'Current Order:
+
+    Fish
+
+    Fish
+
+    Chips'
 --- !u!222 &1749660411
 CanvasRenderer:
   m_ObjectHideFlags: 0
