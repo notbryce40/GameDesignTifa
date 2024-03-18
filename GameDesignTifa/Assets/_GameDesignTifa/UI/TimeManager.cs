@@ -10,6 +10,8 @@ public class TimeManager : MonoBehaviour
     float totalTime; // Total time since the start of the game
     float currentTime; // Current time within the day
 
+    bool endofDay = false; // Flag to indicate the end of the day
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,8 @@ public class TimeManager : MonoBehaviour
             // Prevent further alerts by stopping the time or setting a flag
             // This is just an example, you'll need to implement a proper mechanism
             this.enabled = false; // Disable this script
+
+            endofDay = true;
         }
     }
 
