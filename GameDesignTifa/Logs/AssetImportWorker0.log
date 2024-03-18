@@ -332,3 +332,314 @@ Received Import Request.
 Start importing Assets/Scenes/Main Menu.unity using Guid(17fd3b06de103bb4687f7419d5c6fa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b090e8fd2688d1ae3fbb16bb31a26c35') in 0.000417 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 213.976574 seconds.
+  path: Assets/_GameDesignTifa/Scripts
+  artifactKey: Guid(ece7ce4774e0b5d4ab254f9087fe2286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts using Guid(ece7ce4774e0b5d4ab254f9087fe2286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903755de5a015e763027fccc172d8f5d') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.161997 seconds.
+  path: Assets/_GameDesignTifa/Scripts/NPCMovement.cs
+  artifactKey: Guid(fcd764e8fe94ef241be6be38154b3ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/NPCMovement.cs using Guid(fcd764e8fe94ef241be6be38154b3ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bc3e97326e2f7d5e5f1ab0ec089a83') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.314 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.784 seconds
+Domain Reload Profiling: 1095ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3723.
+Memory consumption went from 133.7 MB to 133.7 MB.
+Total: 2.664500 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.136900 ms MarkObjects: 2.265700 ms  DeleteObjects: 0.053300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 224.079668 seconds.
+  path: Assets/_GameDesignTifa/Scripts/NPCMovement.cs
+  artifactKey: Guid(fcd764e8fe94ef241be6be38154b3ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/NPCMovement.cs using Guid(fcd764e8fe94ef241be6be38154b3ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7b38cee5b0eabe0662d247724b916a') in 0.001741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.722918 seconds.
+  path: Assets/_GameDesignTifa/Scripts/NPCSpawning.cs
+  artifactKey: Guid(aa40b4c67fa447a4d9f59c77b39d2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Scripts/NPCSpawning.cs using Guid(aa40b4c67fa447a4d9f59c77b39d2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233f12addaeae67df1207dce92134d6a') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 79.222680 seconds.
+  path: Assets/_GameDesignTifa/Images/Main Menu.jpg
+  artifactKey: Guid(a21ad241b94d06741b3eb95f17e4b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Images/Main Menu.jpg using Guid(a21ad241b94d06741b3eb95f17e4b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841590cb75f0ae3aeea768990147c5f7') in 0.064003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.601996 seconds.
+  path: Assets/_GameDesignTifa/Music/Button Press Sound Effect.mp3
+  artifactKey: Guid(63073a3587bb70a4bbeddfab03e2b3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Music/Button Press Sound Effect.mp3 using Guid(63073a3587bb70a4bbeddfab03e2b3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d816b3d9e1ea5d63f2c6fe3677baa7') in 0.041129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_GameDesignTifa/Music/Please Hold - Jono (Hermitcraft Permit Office Song).mp3
+  artifactKey: Guid(a7dd0689853aab94790358ee2634ded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Music/Please Hold - Jono (Hermitcraft Permit Office Song).mp3 using Guid(a7dd0689853aab94790358ee2634ded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890ec99e734537cc1924b8c3388320d0') in 0.010849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.599535 seconds.
+  path: Assets/_GameDesignTifa/Prefabs/Blue Shelf.prefab
+  artifactKey: Guid(3c62e00b94f3fa24b901bd8910fbce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Prefabs/Blue Shelf.prefab using Guid(3c62e00b94f3fa24b901bd8910fbce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb51f552cb55f4efa33f8da8d2c2531') in 0.198798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_GameDesignTifa/Prefabs/RedStorageRack.prefab
+  artifactKey: Guid(30938df556cdf6d4aa3410b8639e2077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Prefabs/RedStorageRack.prefab using Guid(30938df556cdf6d4aa3410b8639e2077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c48bb59a602272b295dad42e5c0fb6') in 0.182542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_GameDesignTifa/Prefabs/WhiteStorageRack.prefab
+  artifactKey: Guid(8573f8bf9d428d64fbe4a5ff71121d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Prefabs/WhiteStorageRack.prefab using Guid(8573f8bf9d428d64fbe4a5ff71121d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e51b457ad8f866178d181c55695c9') in 0.012223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_GameDesignTifa/Prefabs/GreenStorageRack.prefab
+  artifactKey: Guid(b540c204a2e5396418ded26e08f5f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/Prefabs/GreenStorageRack.prefab using Guid(b540c204a2e5396418ded26e08f5f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac4df1dfa83a397883929c5d944f51') in 0.012618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.813164 seconds.
+  path: Assets/_GameDesignTifa/UI/ClockSprites.png
+  artifactKey: Guid(b569b30dbf4fbfc4b97c8f9eba990f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/UI/ClockSprites.png using Guid(b569b30dbf4fbfc4b97c8f9eba990f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62448de9cebe87a8bbd4ae4adbda90fc') in 0.038541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 16.101612 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_1_Diffuse2.png
+  artifactKey: Guid(4b41423c437533647900652d9e0ce7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_1_Diffuse2.png using Guid(4b41423c437533647900652d9e0ce7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c447b5d268aabc1d8b403a640045dd16') in 0.018764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_7_Diffuse2.png
+  artifactKey: Guid(6006b7323bd204842a403e46790f2aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_7_Diffuse2.png using Guid(6006b7323bd204842a403e46790f2aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31ddc9771c6f56de41e4f3efa25c29e') in 0.016451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_9_Diffuse.png
+  artifactKey: Guid(1be6a728ab0565f418995ebec0a2b291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_9_Diffuse.png using Guid(1be6a728ab0565f418995ebec0a2b291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f77a1013003edd9cb116444a2c5d85') in 0.015276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_7_Normal.png
+  artifactKey: Guid(d6e6cea87adfaa242be1056d4730f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_7_Normal.png using Guid(d6e6cea87adfaa242be1056d4730f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b822497ca6d9e58c7531b707b5735900') in 0.023121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_5_Normal.png
+  artifactKey: Guid(d2a0d22ea90a5a341869d9c9bf1a3053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_5_Normal.png using Guid(d2a0d22ea90a5a341869d9c9bf1a3053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d0eaefaff58a2c252ee4d3ac56c827') in 0.017047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_2_Diffuse.png
+  artifactKey: Guid(68d11a855d017ab4a8c9babf9b26a677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_2_Diffuse.png using Guid(68d11a855d017ab4a8c9babf9b26a677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b3eebadcc1a977bf97a63f6c332086') in 0.015805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_3_Diffuse2.png
+  artifactKey: Guid(8ce24c04b29621d4984d6a48493f12fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_3_Diffuse2.png using Guid(8ce24c04b29621d4984d6a48493f12fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39960da472562e5e0d9ca0064978060') in 0.017689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_2_Diffuse3.png
+  artifactKey: Guid(87756ca91962c5e4daf14bbc608c1bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_2_Diffuse3.png using Guid(87756ca91962c5e4daf14bbc608c1bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08a1adb1c33d82a3d3fa9d6563b427b') in 0.016414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_6_Normal.png
+  artifactKey: Guid(352c954c78aa76045a14f0b0fe803ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_6_Normal.png using Guid(352c954c78aa76045a14f0b0fe803ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb2bf15dc53538600b448ddbc10343a') in 0.016834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_4_Normal.png
+  artifactKey: Guid(a8d5f5deb1f0aec4a9f2d040de3618fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_4_Normal.png using Guid(a8d5f5deb1f0aec4a9f2d040de3618fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1558d3565b9b6908bfa550fd5ec0be79') in 0.016134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.739613 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_10_2_Normal.png
+  artifactKey: Guid(a418ec96c6aeaf7439523ee4ee83f6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_10_2_Normal.png using Guid(a418ec96c6aeaf7439523ee4ee83f6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7d454e4b74263184e06960c1a0d8ab') in 0.016238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_13_Diffuse2.png
+  artifactKey: Guid(7f5cff0009cec2a4dacb5a126e5c9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_13_Diffuse2.png using Guid(7f5cff0009cec2a4dacb5a126e5c9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deed2e678a960591f666455174a40bdc') in 0.016409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_13_Normal.png
+  artifactKey: Guid(35c6d92837c619f4190e4f970ec26e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_13_Normal.png using Guid(35c6d92837c619f4190e4f970ec26e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b49afa48345ddd50deec62f5869c8df') in 0.015635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.315987 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_14_Diffuse2.png
+  artifactKey: Guid(9deb31dbcebd65447ac1a6fc2c06a932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_14_Diffuse2.png using Guid(9deb31dbcebd65447ac1a6fc2c06a932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c32ecc5a23ca868cea182b52bff13ee') in 0.015688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Yoge/Textures/Stylized - Nature/Texture_15_Normal.png
+  artifactKey: Guid(ec1b57d11eed10645b6589d022fff38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Textures/Stylized - Nature/Texture_15_Normal.png using Guid(ec1b57d11eed10645b6589d022fff38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781cd86935beb93ee9ff5b0ff2d9a3bb') in 0.015052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.761554 seconds.
+  path: Assets/_GameDesignTifa/FBX/ItemRack_Full.fbx
+  artifactKey: Guid(b0de67673dbde3849a803e2df135cb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/ItemRack_Full.fbx using Guid(b0de67673dbde3849a803e2df135cb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09c36c5ec83a586eb2c7b75325eeee8') in 0.049656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_GameDesignTifa/FBX/Storage_Metal_Green.001.mat
+  artifactKey: Guid(df0cd40c183af2343a9f2184fd11638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Storage_Metal_Green.001.mat using Guid(df0cd40c183af2343a9f2184fd11638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874c422cd21530dcec0e4f6bbb68105e') in 0.023019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_GameDesignTifa/FBX/Storage_Metal_Green.001 1.mat
+  artifactKey: Guid(32c66da828f06174281e4b3f6fbe2ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameDesignTifa/FBX/Storage_Metal_Green.001 1.mat using Guid(32c66da828f06174281e4b3f6fbe2ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c617c0a56285ef894f8832fa19187a3') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
