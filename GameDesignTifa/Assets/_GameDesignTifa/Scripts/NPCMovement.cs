@@ -6,17 +6,28 @@ using UnityEngine.AI;
 public class NPCMovement : MonoBehaviour
 {
     public GameObject theDestination;
+    public GameObject finalDestination;
+    public GameObject NpcCat;
+    public int pivotPoint = 0;
     NavMeshAgent theAgent;
+
 
     // Start is called before the first frame update
     void Start()
     {
         theAgent = GetComponent<NavMeshAgent>();
+        theAgent.SetDestination(theDestination.transform.position);
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision col)
     {
-        theAgent.SetDestination(theDestination.transform.position);
+        if (col.gameObject.name == "Destination Cube")
+        {
+            theAgent.SetDestination(finalDestination.transform.position);
+        }
+        if (col.gameObject.name == "FinalDestinationCube")
+        {
+            Destroy(NpcCat);
+        }
     }
 }
