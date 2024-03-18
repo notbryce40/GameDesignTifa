@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NpcOrder : MonoBehaviour
 {
-    public async void WaitForOrder()
+    /*public async void WaitForOrder()
     {
         while (!OrderComplete)
         {
@@ -28,5 +28,5 @@ public class NpcOrder : MonoBehaviour
         Random r = new Random();
         int rInt = r.Next(4);
         return rInt;
-    }
+    }*/
 }
