@@ -144,7 +144,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 264
+=======
+  controlID: 54
+>>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,9 +379,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 62620000
     m_LastClickedID: 25186
     m_ExpandedIDs: 000000006462000000ca9a3b
+=======
+    m_SelectedIDs: d8620000
+    m_LastClickedID: 25304
+    m_ExpandedIDs: 00000000d6620000d8620000da620000dc620000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -497,10 +507,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< Updated upstream
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 08260000
       m_LastClickedID: 0
       m_ExpandedIDs: d0e4ffff
+=======
+      scrollPos: {x: 0, y: 82}
+      m_SelectedIDs: 52f6ffff
+      m_LastClickedID: -2478
+      m_ExpandedIDs: a0f7ffff26fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -945,9 +962,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -1.095091, y: -8.565231, z: 8.236807}
     speed: 2
     m_Value: {x: -1.095091, y: -8.565231, z: 8.236807}
+=======
+    m_Target: {x: 4.3646307, y: 0.76830864, z: 11.101107}
+    speed: 2
+    m_Value: {x: 4.3646307, y: 0.76830864, z: 11.101107}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -993,6 +1016,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< Updated upstream
     m_Target: {x: -0.19243425, y: 0.75855106, z: -0.25754455, w: -0.5667802}
     speed: 2
     m_Value: {x: -0.19204774, y: 0.7594005, z: -0.25783294, w: -0.5656418}
@@ -1000,6 +1024,15 @@ MonoBehaviour:
     m_Target: 17.72196
     speed: 2
     m_Value: 17.72196
+=======
+    m_Target: {x: -0.19212724, y: 0.78633946, z: -0.2989558, w: -0.50535077}
+    speed: 2
+    m_Value: {x: -0.19136931, y: 0.78678834, z: -0.29777646, w: -0.50563926}
+  m_Size:
+    m_Target: 9.291985
+    speed: 2
+    m_Value: 8.891851
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
