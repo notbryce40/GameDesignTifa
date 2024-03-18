@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,14 +11,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool isHoldingBox;
     [SerializeField] private bool isWalking;
 
+    public Shelf currentShelf; // Reference to the currently interacted shelf
+    public Transform playerHand; // Reference to the player's hand for item instantiation
+
     private Vector3 moveDirections;
+    private CharacterController CharCC;
 
     //Refs
-   
+    private GameObject heldItem; // Reference to the item currently held by the player
     private Animator anim;
 
     private void Start()
     {
+        CharCC = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         
     }
@@ -25,8 +31,44 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Move();
+        /*if (Input.GetKeyDown(KeyCode.E))
+        {
+            // Ensure there is a valid shelf reference
+            if (currentShelf != null)
+            {
+                // Pick up the first visible item from the shelf (you can change this logic as needed)
+                GameObject pickedUpItem = currentShelf.PickUpItem(0);
+                if (pickedUpItem != null)
+                {
+                    // Instantiate the picked up item in the player's hand
+                    GameObject instantiatedItem = Instantiate(pickedUpItem, playerHand.position, playerHand.rotation, playerHand);
+                    if (instantiatedItem != null)
+                    {
+                        Debug.Log("Item instantiated in player's hand: " + instantiatedItem.name);
+                    }
+                    else
+                    {
+                        Debug.LogError("Failed to instantiate item in player's hand.");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning("No item picked up.");
+                }
+            }
+        }*/
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            // Ensure there is a valid shelf reference
+            if (currentShelf != null)
+            {
+                if(heldItem == null)
+                {
+                    PickUpItemFromShelf();
+                }
+            }
+        }
     }
-
     /*private void Move()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -62,10 +104,7 @@ public class PlayerMovement : MonoBehaviour
     }*/
     private void Move()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-
-        moveDirections = new Vector3(horizontalInput, 0f, verticalInput).normalized;
+        moveDirections = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         if (moveDirections != Vector3.zero)
         {
@@ -73,28 +112,24 @@ public class PlayerMovement : MonoBehaviour
             float targetAngle = Mathf.Atan2(moveDirections.x, moveDirections.z) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
 
-            // Determine whether to walk or walk while holding a box
-            if (!isHoldingBox)
+            if (heldItem == null)
                 Walk();
             else
                 walkbox();
         }
         else
         {
-            if (isHoldingBox)
-            {
-                // If no movement input, stop walking
-                holdbox();
-            }
-            else
-            {
+            if (heldItem == null)
                 Idle();
-            }
-            
+            else
+                holdbox();
         }
 
+
+
         moveDirections *= moveSpeed;
-        transform.Translate(moveDirections * Time.deltaTime, Space.World);
+        //transform.Translate(moveDirections * Time.deltaTime, Space.World);
+        CharCC.Move(moveDirections * Time.deltaTime);
     }
 
     private void Idle()
@@ -122,4 +157,51 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("isWalking", true);
         anim.SetBool("isHoldingBox", true);
     }
+
+    private void PickUpItemFromShelf()
+    {
+        if (heldItem != null)
+        {
+            DropItem();
+        }
+
+        GameObject pickedUpItem = currentShelf.PickUpNextItem();
+        if (pickedUpItem != null)
+        {
+            heldItem = pickedUpItem;
+            heldItem.transform.SetParent(playerHand);
+            heldItem.transform.localPosition = Vector3.zero;
+            heldItem.transform.localRotation = Quaternion.identity;
+        }
+    }
+    private void DropItem()
+    {
+        Destroy(heldItem);
+        heldItem = null;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the player entered the trigger of a shelf
+        Shelf shelf = other.GetComponent<Shelf>();
+        if (shelf != null)
+        {
+            currentShelf = shelf;
+        }
+
+    }
+
+    // OnTriggerExit is called when the Collider other has stopped touching the trigger
+    void OnTriggerExit(Collider other)
+    {
+        // Check if the player exited the trigger of a shelf
+        if (other.GetComponent<Shelf>() == currentShelf)
+        {
+            currentShelf = null;
+        }
+        
+
+    }
+
+
 }
