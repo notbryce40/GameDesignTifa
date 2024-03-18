@@ -32,10 +32,14 @@ public class NPCMovement : MonoBehaviour
         if (!orderCompleted && Vector3.Distance(npcCatInstance.transform.position, registerCube.transform.position) < 1.0f)
         {
             // Logic to create an order can be added here
-            orderCompleted = true;
+            //orderCompleted = true;
 
-            // Set the destination to the finalDestinationCube
-            theAgent.SetDestination(finalDestinationCube.transform.position);
+            if (orderCompleted)
+            {   
+                // Set the destination to the finalDestinationCube
+                theAgent.SetDestination(finalDestinationCube.transform.position);
+            }
+            
         }
 
         // Check if the NPC has reached the finalDestinationCube
