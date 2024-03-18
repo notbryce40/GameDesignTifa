@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 C:\Users\Ashley\Documents\GitHub\Tifa\GameDesignTifa\GameDesignTifa
+=======
+C:\Users\Bryces Desktop\Documents\GitHub\GameDesignTifa\GameDesignTifa
+>>>>>>> Stashed changes

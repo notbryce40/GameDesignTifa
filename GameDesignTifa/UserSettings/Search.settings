@@ -4,6 +4,7 @@ fetchPreview = true
 defaultFlags = 0
 keepOpen = false
 queryFolder = "Assets"
+<<<<<<< Updated upstream
 onBoardingDoNotAskAgain = false
 showPackageIndexes = false
 showStatusBar = false
@@ -11,6 +12,12 @@ scopes = {
 	"last_search.310DEAF1" = "sprite editor"
 	"OpenInspectorPreview.310DEAF1" = "0"
 	"currentGroup.310DEAF1" = "all"
+=======
+onBoardingDoNotAskAgain = true
+showPackageIndexes = false
+showStatusBar = false
+scopes = {
+>>>>>>> Stashed changes
 }
 providers = {
 	packages = {
