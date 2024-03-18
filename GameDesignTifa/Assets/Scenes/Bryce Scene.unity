@@ -3026,7 +3026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a082885a0e650d4f98779cf51db5093, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.541
+      value: 0.246
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a082885a0e650d4f98779cf51db5093, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3320,6 +3320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19283185}
     m_Modifications:
+    - target: {fileID: 4762778141496584898, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
+      propertyPath: m_Name
+      value: Blue Shelf (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7400694833078202627, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -3359,10 +3363,6 @@ PrefabInstance:
     - target: {fileID: 7400694833078202627, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4762778141496584898, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
-      propertyPath: m_Name
-      value: Blue Shelf (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6658,7 +6658,7 @@ Transform:
   m_GameObject: {fileID: 1587560830}
   serializedVersion: 2
   m_LocalRotation: {x: 0.51939523, y: -0, z: -0, w: 0.8545341}
-  m_LocalPosition: {x: 5.69, y: 26.14, z: 14.06}
+  m_LocalPosition: {x: 5.69, y: 16.37, z: -1.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6734,6 +6734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 19283185}
     m_Modifications:
+    - target: {fileID: 4762778141496584898, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
+      propertyPath: m_Name
+      value: Blue Shelf (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7400694833078202627, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -6773,10 +6777,6 @@ PrefabInstance:
     - target: {fileID: 7400694833078202627, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4762778141496584898, guid: 3c62e00b94f3fa24b901bd8910fbce06, type: 3}
-      propertyPath: m_Name
-      value: Blue Shelf (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
