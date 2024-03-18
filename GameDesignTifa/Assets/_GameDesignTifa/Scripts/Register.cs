@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class Register : MonoBehaviour
 {
-    private NPCMovement npcMovement; // Call class for 
+    //put item on register
+    //remove items from register
+    //4 empty childs for items 
+    //check if in order
+    //
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +20,12 @@ public class Register : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //get order() //check order 
+    }
+
+    bool ItemOnRegister()
+    {
         
+        return true;
     }
 }

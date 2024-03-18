@@ -1,4 +1,3 @@
-/*
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -58,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
                     Debug.LogWarning("No item picked up.");
                 }
             }
-        }
+        }*/
         if (Input.GetKeyDown(KeyCode.E))
         {
             // Ensure there is a valid shelf reference
@@ -68,9 +67,9 @@ public class PlayerMovement : MonoBehaviour
                 {
                     PickUpItemFromShelf();
                 }
-                else(heldItem != null){
-                    PlaceOnRegister();
-                }
+                /*else(heldItem != null){
+                    //PlaceOnRegister();
+                }*/
             }
         }
     }
@@ -106,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.Translate(moveDirections * moveSpeed * Time.deltaTime, Space.World);
 
-    }
+    }*/
     private void Move()
     {
         moveDirections = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -186,10 +185,11 @@ public class PlayerMovement : MonoBehaviour
         heldItem = null;
     }
 
-    private void PlaceOnregister()
+    private void PlaceOnRegister()
     {
         if (heldItem != null)
         {
+
             
         }
     }
@@ -228,5 +228,3 @@ public class PlayerMovement : MonoBehaviour
 
 
 }
-
-*/
