@@ -11,10 +11,12 @@ public class NPCMovement : MonoBehaviour
     private NavMeshAgent theAgent;
     private GameObject npcCatInstance;
 
-    private bool orderCompleted = false;
-    private int coinsEarned = 10;
-    private OrderItem[] currentOrder;
-    private enum OrderItem { Chips, Fish, Coke, Yogurt }
+    //Order System
+    public int coinsEarned = 10;
+    public bool orderCompleted = false;
+    
+    public enum OrderItem { Chips, Fish, Coke, Yogurt }
+    public OrderItem[] currentOrder; // should have the items stored in the array
 
     void Start()
     {
@@ -48,7 +50,7 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
-    private void GenerateRandomOrder()
+    public void GenerateRandomOrder() // Generates order of up to size 4
     {
         int orderSize = Random.Range(1, 5);
         currentOrder = new OrderItem[orderSize];
@@ -61,7 +63,7 @@ public class NPCMovement : MonoBehaviour
         Debug.Log("Generated order: " + string.Join(", ", currentOrder));
     }
 
-    private bool IsOrderFulfilled()
+    public bool IsOrderFulfilled()
     {
         return currentOrder.Length > 0;
     }
