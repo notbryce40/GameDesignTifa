@@ -8,45 +8,61 @@ public class NPCMovement : MonoBehaviour
     public GameObject finalDestinationCube;
     public GameObject NpcCatPrefab;
 
-    private bool orderCompleted = false;
     private NavMeshAgent theAgent;
     private GameObject npcCatInstance;
 
-    // Start is called before the first frame update
+    private bool orderCompleted = false;
+    private int coinsEarned = 10;
+    private OrderItem[] currentOrder;
+    private enum OrderItem { Chips, Fish, Coke, Yogurt }
+
     void Start()
     {
-        // Instantiate the NPC from the prefab at the spawnCube's position
         npcCatInstance = Instantiate(NpcCatPrefab, spawnCube.transform.position, Quaternion.identity);
-        
-        // Get the NavMeshAgent component from the instantiated NPC
         theAgent = npcCatInstance.GetComponent<NavMeshAgent>();
-        
-        // Set the first destination to the registerCube
         theAgent.SetDestination(registerCube.transform.position);
+
+        GenerateRandomOrder();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Check the distance to the registerCube and if the order is not completed
         if (!orderCompleted && Vector3.Distance(npcCatInstance.transform.position, registerCube.transform.position) < 1.0f)
         {
-            // Logic to create an order can be added here
-            //orderCompleted = true;
+            
+            
+            Debug.Log("Order has not been completed yet");
 
-            if (orderCompleted)
-            {   
-                // Set the destination to the finalDestinationCube
+            if (orderCompleted == true)
+            {
+                Debug.Log("Order completed. Coins earned: " + coinsEarned);
                 theAgent.SetDestination(finalDestinationCube.transform.position);
             }
             
+    
         }
 
-        // Check if the NPC has reached the finalDestinationCube
         if (orderCompleted && Vector3.Distance(npcCatInstance.transform.position, finalDestinationCube.transform.position) < 1.0f)
         {
-            // Despawn the NPC
             Destroy(npcCatInstance);
         }
+    }
+
+    private void GenerateRandomOrder()
+    {
+        int orderSize = Random.Range(1, 5);
+        currentOrder = new OrderItem[orderSize];
+
+        for (int i = 0; i < orderSize; i++)
+        {
+            currentOrder[i] = (OrderItem)Random.Range(0, System.Enum.GetValues(typeof(OrderItem)).Length);
+        }
+
+        Debug.Log("Generated order: " + string.Join(", ", currentOrder));
+    }
+
+    private bool IsOrderFulfilled()
+    {
+        return currentOrder.Length > 0;
     }
 }
