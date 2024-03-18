@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool isWalking;
 
     public Shelf currentShelf; // Reference to the currently interacted shelf
+    public Register currentRegister;
     public Transform playerHand; // Reference to the player's hand for item instantiation
 
     private Vector3 moveDirections;
@@ -65,6 +66,9 @@ public class PlayerMovement : MonoBehaviour
                 if(heldItem == null)
                 {
                     PickUpItemFromShelf();
+                }
+                else(heldItem != null){
+                    PlaceOnRegister();
                 }
             }
         }
@@ -176,17 +180,31 @@ public class PlayerMovement : MonoBehaviour
     }
     private void DropItem()
     {
+
         Destroy(heldItem);
         heldItem = null;
+    }
+
+    private void PlaceOnregister()
+    {
+        if (heldItem != null)
+        {
+            
+        }
     }
 
     void OnTriggerEnter(Collider other)
     {
         // Check if the player entered the trigger of a shelf
         Shelf shelf = other.GetComponent<Shelf>();
+        Register register = other.GetComponent<Register>();
         if (shelf != null)
         {
             currentShelf = shelf;
+        }
+        if(register != null)
+        {
+            currentRegister = register;
         }
 
     }
@@ -199,7 +217,11 @@ public class PlayerMovement : MonoBehaviour
         {
             currentShelf = null;
         }
-        
+        if (other.GetComponent<Register>() == currentRegister)
+        {
+            currentRegister = null;
+        }
+
 
     }
 

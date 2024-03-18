@@ -52,8 +52,8 @@ public class Shelf : MonoBehaviour
         // Check if there are available items
         if (currentItemIndex < itemsToPickUp.Length)
         {
-            // Instantiate the next available item in the player's hand
-            GameObject pickedUpItem = itemsToPickUp[currentItemIndex];//Instantiate(itemsToPickUp[currentItemIndex], playerHand.position, playerHand.rotation, playerHand);
+            
+            GameObject pickedUpItem = itemsToPickUp[currentItemIndex];
 
             // Increment the index for the next item
             currentItemIndex++;
