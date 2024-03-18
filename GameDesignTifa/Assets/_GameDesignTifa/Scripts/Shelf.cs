@@ -43,7 +43,7 @@ using UnityEngine;
 public class Shelf : MonoBehaviour
 {
     public GameObject[] itemsToPickUp; // Reference to the items to pick up
-    public Transform playerHand; // Reference to the player's hand for item instantiation
+    //public Transform playerHand; // Reference to the player's hand for item instantiation
 
     private int currentItemIndex = 0; // Index of the currently selected item
 
@@ -53,7 +53,7 @@ public class Shelf : MonoBehaviour
         if (currentItemIndex < itemsToPickUp.Length)
         {
             // Instantiate the next available item in the player's hand
-            GameObject pickedUpItem = Instantiate(itemsToPickUp[currentItemIndex], playerHand.position, playerHand.rotation, playerHand);
+            GameObject pickedUpItem = itemsToPickUp[currentItemIndex];//Instantiate(itemsToPickUp[currentItemIndex], playerHand.position, playerHand.rotation, playerHand);
 
             // Increment the index for the next item
             currentItemIndex++;

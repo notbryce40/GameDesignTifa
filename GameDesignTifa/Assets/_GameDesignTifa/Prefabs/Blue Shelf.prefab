@@ -757,6 +757,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7400694833078202627}
   - component: {fileID: 3229410355532152563}
+  - component: {fileID: 3494296765799950018}
+  - component: {fileID: 8562228260652560996}
   m_Layer: 0
   m_Name: Blue Shelf
   m_TagString: Untagged
@@ -817,6 +819,57 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.18, y: 2.55, z: 1.12}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &3494296765799950018
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762778141496584898}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.18, y: 2.55, z: 1.12}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8562228260652560996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762778141496584898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00494625f62825449868534f58fac058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsToPickUp:
+  - {fileID: 909986670680584980}
+  - {fileID: 1753596389678637867}
+  - {fileID: 5707331599779953553}
+  - {fileID: 1111827113638194030}
+  - {fileID: 9109339772686671130}
+  - {fileID: 6402505247229344590}
+  - {fileID: 5694059038206195138}
+  - {fileID: 1405827160325597709}
+  - {fileID: 7783971136185137916}
+  - {fileID: 3139092836264069927}
+  - {fileID: 5503388548312556978}
+  - {fileID: 4672550154787876798}
+  - {fileID: 5556640526018873459}
+  - {fileID: 4267603094763243730}
+  - {fileID: 331828604917835648}
+  - {fileID: 1538442776166871365}
+  playerHand: {fileID: 0}
 --- !u!1 &5503388548312556978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,8 +1379,6 @@ GameObject:
   - component: {fileID: 5528086327183633477}
   - component: {fileID: 8355650580767975829}
   - component: {fileID: 3177660550820793325}
-  - component: {fileID: 1288047498094168486}
-  - component: {fileID: 677269517964591167}
   m_Layer: 0
   m_Name: ItemRack_Short (1)
   m_TagString: Untagged
@@ -1400,57 +1451,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1288047498094168486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000026315996528932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00494625f62825449868534f58fac058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemsToPickUp:
-  - {fileID: 909986670680584980}
-  - {fileID: 1753596389678637867}
-  - {fileID: 5707331599779953553}
-  - {fileID: 1111827113638194030}
-  - {fileID: 9109339772686671130}
-  - {fileID: 6402505247229344590}
-  - {fileID: 5694059038206195138}
-  - {fileID: 1405827160325597709}
-  - {fileID: 7783971136185137916}
-  - {fileID: 3139092836264069927}
-  - {fileID: 5503388548312556978}
-  - {fileID: 4672550154787876798}
-  - {fileID: 5556640526018873459}
-  - {fileID: 4267603094763243730}
-  - {fileID: 331828604917835648}
-  - {fileID: 1538442776166871365}
-  playerHand: {fileID: 0}
---- !u!65 &677269517964591167
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000026315996528932}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.18, y: 2.55, z: 1.12}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9109339772686671130
 GameObject:
   m_ObjectHideFlags: 0
