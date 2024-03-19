@@ -32,32 +32,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Move();
-        /*if (Input.GetKeyDown(KeyCode.E))
-        {
-            // Ensure there is a valid shelf reference
-            if (currentShelf != null)
-            {
-                // Pick up the first visible item from the shelf (you can change this logic as needed)
-                GameObject pickedUpItem = currentShelf.PickUpItem(0);
-                if (pickedUpItem != null)
-                {
-                    // Instantiate the picked up item in the player's hand
-                    GameObject instantiatedItem = Instantiate(pickedUpItem, playerHand.position, playerHand.rotation, playerHand);
-                    if (instantiatedItem != null)
-                    {
-                        Debug.Log("Item instantiated in player's hand: " + instantiatedItem.name);
-                    }
-                    else
-                    {
-                        Debug.LogError("Failed to instantiate item in player's hand.");
-                    }
-                }
-                else
-                {
-                    Debug.LogWarning("No item picked up.");
-                }
-            }
-        }*/
         if (Input.GetKeyDown(KeyCode.E))
         {
             // Ensure there is a valid shelf reference
@@ -67,45 +41,10 @@ public class PlayerMovement : MonoBehaviour
                 {
                     PickUpItemFromShelf();
                 }
-                /*else(heldItem != null){
-                    //PlaceOnRegister();
-                }*/
             }
         }
     }
-    /*private void Move()
-    {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-
-        moveDirections = new Vector3(horizontalInput, 0f,verticalInput).normalized;
-        moveDirections = transform.TransformDirection(moveDirections);
-
-        
-        if(moveDirections != Vector3.zero && isHoldingBox == false )
-        {
-            transform.rotation = Quaternion.LookRotation(moveDirections);
-            Walk();
-        }
-        else if(moveDirections == Vector3.zero && isHoldingBox == false)
-        {
-            Idle();
-        }
-        else if(moveDirections == Vector3.zero && isHoldingBox == true)
-        {
-            holdbox();
-        }
-        else if(moveDirections != Vector3.zero && isHoldingBox == true )
-        {
-            transform.rotation = Quaternion.LookRotation(moveDirections);
-            walkbox();
-        }
-
-        moveDirections *= moveSpeed;
-
-        transform.Translate(moveDirections * moveSpeed * Time.deltaTime, Space.World);
-
-    }*/
+    
     private void Move()
     {
         moveDirections = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));

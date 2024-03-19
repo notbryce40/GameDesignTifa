@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2707541378287117243}
   m_Layer: 0
   m_Name: yogurt_001_4
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 8093486705704305657}
   m_Layer: 0
   m_Name: yogurt_001_6
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 5710759111918336409}
   m_Layer: 0
   m_Name: yogurt_001_3
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 1220516087521949985}
   m_Layer: 0
   m_Name: yogurt_001_9
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 4552201650975043789}
   m_Layer: 0
   m_Name: yogurt_001_12
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 8646630247140428606}
   m_Layer: 0
   m_Name: yogurt_001_15
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 2111085986733993720}
   m_Layer: 0
   m_Name: yogurt_001_8
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 2760191774260090936}
   m_Layer: 0
   m_Name: yogurt_001_16
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 4400743279226262159}
   m_Layer: 0
   m_Name: yogurt_001_7
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 245037309963658928}
   m_Layer: 0
   m_Name: yogurt_001_2
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,7 +931,6 @@ MonoBehaviour:
   - {fileID: 7938071625013233116}
   - {fileID: 3028084741545930134}
   - {fileID: 3930690296182732417}
-  playerHand: {fileID: 0}
 --- !u!65 &9184106331807434089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -966,7 +965,7 @@ GameObject:
   - component: {fileID: 8533419043274566505}
   m_Layer: 0
   m_Name: yogurt_001_13
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1049,7 +1048,7 @@ GameObject:
   - component: {fileID: 3746111999231625625}
   m_Layer: 0
   m_Name: yogurt_001_5
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1215,7 +1214,7 @@ GameObject:
   - component: {fileID: 5404980267645117431}
   m_Layer: 0
   m_Name: yogurt_001_10
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1298,7 +1297,7 @@ GameObject:
   - component: {fileID: 6675291468650872568}
   m_Layer: 0
   m_Name: yogurt_001_14
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1381,7 +1380,7 @@ GameObject:
   - component: {fileID: 375204486176386942}
   m_Layer: 0
   m_Name: yogurt_001_11
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1464,7 +1463,7 @@ GameObject:
   - component: {fileID: 3152930937671350018}
   m_Layer: 0
   m_Name: yogurt_001_1
-  m_TagString: Untagged
+  m_TagString: Yogurt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
