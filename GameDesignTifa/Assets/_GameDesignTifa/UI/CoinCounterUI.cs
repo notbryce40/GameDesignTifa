@@ -1,23 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CoinCounterUI : MonoBehaviour
 {
     public Text display; // Reference to the UI Text element that displays the coins
-    private CoinManager coinManager; // Reference to the CoinManager script
+    
+    public int totalCoins = 10; // Total coins count, initialized to 10
 
+    // Start is called before the first frame update
     void Start()
     {
-        // Find the CoinManager component in the scene
-        coinManager = FindObjectOfType<CoinManager>();
         display = GetComponent<Text>();
     }
 
     void Update()
     {
-        // Update the UI Text to display the current number of coins
-        display.text = "Coins: " + coinManager.GetTotalCoins().ToString();
+        display.text = "Coins: " + totalCoins;
     }
+
+    // Update the display text
+    private void UpdateDisplay()
+    {
+        display.text = "Coins: " + totalCoins;
+    }
+
+    // Method to update the total coins
+    public void UpdateTotalCoins()
+    {
+        totalCoins += 10;
+        UpdateDisplay();
+    }
+
 }

@@ -11,8 +11,9 @@ public class NPCMovement : MonoBehaviour
     private NavMeshAgent theAgent;
     private GameObject npcCatInstance;
 
+    public CoinCounterUI coinCounter; //reference to the coin counter
+
     //Order System
-    public int coinsEarned = 10;
     public bool orderCompleted = false;
     public bool orderGenerated = false;
     
@@ -24,6 +25,8 @@ public class NPCMovement : MonoBehaviour
         npcCatInstance = Instantiate(NpcCatPrefab, spawnCube.transform.position, Quaternion.identity);
         theAgent = npcCatInstance.GetComponent<NavMeshAgent>();
         theAgent.SetDestination(registerCube.transform.position);
+        
+        coinCounter = FindObjectOfType<CoinCounterUI>();
 
        
     }
@@ -37,12 +40,17 @@ public class NPCMovement : MonoBehaviour
                 GenerateRandomOrder();
                 orderGenerated = true;
                 Debug.Log("Order generated");
+                orderCompleted = true;
+
             }
             
 
             if (orderCompleted == true)
             {
-                Debug.Log("Order completed. Coins earned: " + coinsEarned);
+               
+                Debug.Log("Order completed.");
+                coinCounter.UpdateTotalCoins();
+
                 theAgent.SetDestination(finalDestinationCube.transform.position);
             }
             
