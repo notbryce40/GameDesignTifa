@@ -107,11 +107,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void PickUpItemFromShelf()
     {
-        if (heldItem != null)
-        {
-            DropItem();
-        }
-
         GameObject pickedUpItem = currentShelf.PickUpNextItem();
         if (pickedUpItem != null)
         {
@@ -120,12 +115,6 @@ public class PlayerMovement : MonoBehaviour
             heldItem.transform.localPosition = Vector3.zero;
             heldItem.transform.localRotation = Quaternion.identity;
         }
-    }
-    private void DropItem()
-    {
-
-        Destroy(heldItem);
-        heldItem = null;
     }
 
     /*private void PlaceOnRegister()
@@ -157,12 +146,12 @@ public class PlayerMovement : MonoBehaviour
     {
     if (heldItem != null && currentRegister != null)
     {
-        //heldItem.transform.SetParent(null);bool isPlaced = 
-        currentRegister.ItemOnRegister(heldItem);
-        /*if (isPlaced)
+        //heldItem.transform.SetParent(null);
+        bool isPlaced =currentRegister.ItemOnRegister(heldItem);
+        if (isPlaced)
         {
             heldItem = null; // Don't destroy the item here if it's successfully placed
-        }*/
+        }
     }
     }
 
