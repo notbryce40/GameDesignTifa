@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Register : MonoBehaviour
@@ -20,25 +21,31 @@ public class Register : MonoBehaviour
     //add item to child
     
 
-    public bool ItemOnRegister(GameObject gameObject)
+    public bool ItemOnRegister(GameObject item)
     {
 
         if (currentItemIndex < ItemLocations.Length)
         {
             
-            ItemLocations[currentItemIndex] = gameObject;
+            ItemLocations[currentItemIndex] = item;
 
             // Increment the index for the next item
+            item.transform.SetParent(ItemLocations[currentItemIndex].transform);
+            item.transform.localPosition = Vector3.zero;
+            item.transform.localRotation = Quaternion.identity;
             
-            //gameObject.transform.SetParent(ItemLocations[currentItemIndex]);
             currentItemIndex++;
-            //heldItem.transform.localPosition = Vector3.zero;
-            //heldItem.transform.localRotation = Quaternion.identity;
+            // Reset the local position and rotation of the item
+            
 
-            Debug.Log("Picked up item: " + (gameObject != null ? gameObject.name : "None"));
+            Debug.Log("Picked up item: " + (item != null ? item.name : "None"));
 
             return true;
         }
-        return false;
+        else
+        {
+            Debug.LogWarning("Failed to pick up item: " + (item != null ? item.name : "None"));
+            return false;
+        }
     }
 }

@@ -4965,6 +4965,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.737
       objectReference: {fileID: 0}
+    - target: {fileID: 3184762781462213871, guid: f9dff8e50acea41408682305df8661ce, type: 3}
+      propertyPath: m_Size.x
+      value: 1.63
+      objectReference: {fileID: 0}
     - target: {fileID: 3632662848282661925, guid: f9dff8e50acea41408682305df8661ce, type: 3}
       propertyPath: itemsToPickUp.Array.size
       value: 4

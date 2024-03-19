@@ -127,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
         heldItem = null;
     }
 
-    private void PlaceOnRegister()
+    /*private void PlaceOnRegister()
     {
         if (heldItem != null)
         {
@@ -136,7 +136,18 @@ public class PlayerMovement : MonoBehaviour
                 Destroy(heldItem);
             }
         }
+    }*/
+    private void PlaceOnRegister()
+{
+    if (heldItem != null && currentRegister != null)
+    {
+        bool isPlaced = currentRegister.ItemOnRegister(heldItem);
+        if (isPlaced)
+        {
+            heldItem = null; // Don't destroy the item here if it's successfully placed
+        }
     }
+}
 
     void OnTriggerEnter(Collider other)
     {
