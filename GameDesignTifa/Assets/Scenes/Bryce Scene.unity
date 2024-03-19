@@ -1801,6 +1801,7 @@ MonoBehaviour:
   NpcCatPrefab: {fileID: 2144338952}
   coinsEarned: 10
   orderCompleted: 0
+  orderGenerated: 0
   currentOrder: 
 --- !u!1001 &414147898
 PrefabInstance:
@@ -2979,9 +2980,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 514683051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b75540e9805f7df42b3efb62fbfa3938, type: 3}
+  m_Script: {fileID: 11500000, guid: 93453515987edf84fa0ff2546db7a238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  display: {fileID: 0}
 --- !u!114 &514683054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4964,10 +4966,6 @@ PrefabInstance:
     - target: {fileID: 3167509611969999653, guid: f9dff8e50acea41408682305df8661ce, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.737
-      objectReference: {fileID: 0}
-    - target: {fileID: 3184762781462213871, guid: f9dff8e50acea41408682305df8661ce, type: 3}
-      propertyPath: m_Size.x
-      value: 1.63
       objectReference: {fileID: 0}
     - target: {fileID: 3632662848282661925, guid: f9dff8e50acea41408682305df8661ce, type: 3}
       propertyPath: itemsToPickUp.Array.size

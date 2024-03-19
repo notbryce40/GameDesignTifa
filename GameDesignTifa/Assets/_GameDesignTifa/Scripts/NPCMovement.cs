@@ -14,6 +14,7 @@ public class NPCMovement : MonoBehaviour
     //Order System
     public int coinsEarned = 10;
     public bool orderCompleted = false;
+    public bool orderGenerated = false;
     
     public enum OrderItem { Chips, Fish, Coke, Yogurt }
     public OrderItem[] currentOrder; // should have the items stored in the array
@@ -24,16 +25,20 @@ public class NPCMovement : MonoBehaviour
         theAgent = npcCatInstance.GetComponent<NavMeshAgent>();
         theAgent.SetDestination(registerCube.transform.position);
 
-        GenerateRandomOrder();
+       
     }
 
     void Update()
     {
         if (!orderCompleted && Vector3.Distance(npcCatInstance.transform.position, registerCube.transform.position) < 1.0f)
         {
+            if (!orderGenerated)
+            {
+                GenerateRandomOrder();
+                orderGenerated = true;
+                Debug.Log("Order generated");
+            }
             
-            
-            Debug.Log("Order has not been completed yet");
 
             if (orderCompleted == true)
             {
@@ -63,8 +68,4 @@ public class NPCMovement : MonoBehaviour
         Debug.Log("Generated order: " + string.Join(", ", currentOrder));
     }
 
-    public bool IsOrderFulfilled()
-    {
-        return currentOrder.Length > 0;
-    }
 }
