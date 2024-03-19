@@ -10,7 +10,7 @@ public class Register : MonoBehaviour
     //4 empty childs for items 
     //check if in order
     //
-    public GameObject[] ItemLocations;
+    public Transform[] ItemLocations;
 
     private int currentItemIndex = 0; // Index of the currently selected item
 
@@ -21,17 +21,17 @@ public class Register : MonoBehaviour
     //add item to child
     
 
-    public bool ItemOnRegister(GameObject item)
+    public void ItemOnRegister(GameObject item)
     {
 
         if (currentItemIndex < ItemLocations.Length)
         {
-            
-            ItemLocations[currentItemIndex] = item;
 
             // Increment the index for the next item
-            item.transform.SetParent(ItemLocations[currentItemIndex].transform);
+            
+            item.transform.SetParent(ItemLocations[currentItemIndex]);
             item.transform.localPosition = Vector3.zero;
+            //item.transform.localPosition = Vector3.zero;
             item.transform.localRotation = Quaternion.identity;
             
             currentItemIndex++;
@@ -40,12 +40,12 @@ public class Register : MonoBehaviour
 
             Debug.Log("Picked up item: " + (item != null ? item.name : "None"));
 
-            return true;
+            //return true;
         }
         else
         {
             Debug.LogWarning("Failed to pick up item: " + (item != null ? item.name : "None"));
-            return false;
+            //return false;
         }
     }
 }
