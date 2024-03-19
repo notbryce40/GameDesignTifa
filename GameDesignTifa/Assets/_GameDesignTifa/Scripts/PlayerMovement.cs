@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Refs
     private GameObject heldItem; // Reference to the item currently held by the player
+    private GameObject deparent;
     private Animator anim;
 
     private void Start()
@@ -136,18 +137,34 @@ public class PlayerMovement : MonoBehaviour
                 Destroy(heldItem);
             }
         }
-    }*/
-    private void PlaceOnRegister()
-{
+    }
     if (heldItem != null && currentRegister != null)
     {
         bool isPlaced = currentRegister.ItemOnRegister(heldItem);
         if (isPlaced)
         {
-            heldItem = null; // Don't destroy the item here if it's successfully placed
+            // Instantiate a copy of the held item on the register
+            GameObject registerItem = Instantiate(heldItem, currentRegister.transform);
+            registerItem.transform.localPosition = Vector3.zero;
+            registerItem.transform.localRotation = Quaternion.identity;
+
+            // Destroy the held item in the player's hand
+            Destroy(heldItem);
+            heldItem = null;
         }
+    }*/
+    private void PlaceOnRegister()
+    {
+    if (heldItem != null && currentRegister != null)
+    {
+        //heldItem.transform.SetParent(null);bool isPlaced = 
+        currentRegister.ItemOnRegister(heldItem);
+        /*if (isPlaced)
+        {
+            heldItem = null; // Don't destroy the item here if it's successfully placed
+        }*/
     }
-}
+    }
 
     void OnTriggerEnter(Collider other)
     {
