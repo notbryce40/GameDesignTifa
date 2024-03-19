@@ -32,36 +32,43 @@ public class NPCMovement : MonoBehaviour
     }
 
     void Update()
+{
+    if (npcCatInstance == null)
     {
-        if (!orderCompleted && Vector3.Distance(npcCatInstance.transform.position, registerCube.transform.position) < 1.0f)
+        // Instantiate a new npcCatInstance if the previous one is destroyed
+        Start();
+        return;
+    }
+
+    if (!orderCompleted && Vector3.Distance(npcCatInstance.transform.position, registerCube.transform.position) < 1.0f)
+    {
+        if (!orderGenerated)
         {
-            if (!orderGenerated)
-            {
-                GenerateRandomOrder();
-                orderGenerated = true;
-                Debug.Log("Order generated");
-                orderCompleted = true;
-
-            }
-            
-
-            if (orderCompleted == true)
-            {
-               
-                Debug.Log("Order completed.");
-                coinCounter.UpdateTotalCoins();
-
-                theAgent.SetDestination(finalDestinationCube.transform.position);
-            }
-            
-    
+            GenerateRandomOrder();
+            orderGenerated = true;
+            Debug.Log("Order generated");
+            orderCompleted = true;
         }
 
-        if (orderCompleted && Vector3.Distance(npcCatInstance.transform.position, finalDestinationCube.transform.position) < 1.0f)
+        if (orderCompleted)
         {
-            Destroy(npcCatInstance);
+            Debug.Log("Order completed.");
+            coinCounter.UpdateTotalCoins();
+            theAgent.SetDestination(finalDestinationCube.transform.position);
+            
         }
     }
+
+    if (orderCompleted && Vector3.Distance(npcCatInstance.transform.position, finalDestinationCube.transform.position) < 1.0f)
+    {
+        // Destroy the npcCatInstance when it reaches the final destination
+        orderGenerated = false;
+        orderCompleted = false;
+        Destroy(npcCatInstance);
+
+    }
+}
+
 
     public void GenerateRandomOrder() // Generates order of up to size 4
     {
