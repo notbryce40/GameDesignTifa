@@ -42,6 +42,9 @@ public class PlayerMovement : MonoBehaviour
                     PickUpItemFromShelf();
                 }
             }
+            else if(currentRegister!= null){
+                PlaceOnRegister();
+            }
         }
     }
     
@@ -128,8 +131,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (heldItem != null)
         {
-
-            
+            bool boolPlaceItem = currentRegister.ItemOnRegister(heldItem);
+            if (boolPlaceItem == true){
+                Destroy(heldItem);
+            }
         }
     }
 

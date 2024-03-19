@@ -20,21 +20,25 @@ public class Register : MonoBehaviour
     //add item to child
     
 
-    bool ItemOnRegister()
+    public bool ItemOnRegister(GameObject gameObject)
     {
 
         if (currentItemIndex < ItemLocations.Length)
         {
             
-            GameObject pickedUpItem = ItemLocations[currentItemIndex];
+            ItemLocations[currentItemIndex] = gameObject;
 
             // Increment the index for the next item
+            
+            //gameObject.transform.SetParent(ItemLocations[currentItemIndex]);
             currentItemIndex++;
+            //heldItem.transform.localPosition = Vector3.zero;
+            //heldItem.transform.localRotation = Quaternion.identity;
 
-            Debug.Log("Picked up item: " + (pickedUpItem != null ? pickedUpItem.name : "None"));
+            Debug.Log("Picked up item: " + (gameObject != null ? gameObject.name : "None"));
 
-            return pickedUpItem;
+            return true;
         }
-        return true;
+        return false;
     }
 }
