@@ -48,6 +48,8 @@ public class NPCMovement : MonoBehaviour
             orderGenerated = true;
             Debug.Log("Order generated");
             orderCompleted = true;
+             
+            System.Threading.Thread.Sleep(1000);
         }
 
         if (orderCompleted)
