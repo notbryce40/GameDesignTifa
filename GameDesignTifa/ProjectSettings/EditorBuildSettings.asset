@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bryce Scene.unity
     guid: 77f58dc7fd2513d46b013be6c618f301
+  - enabled: 1
+    path: Assets/Scenes/NinaEndScenes/BillsScene.unity
+    guid: 7a3bab2806bc34e4f98174d0d5b473d3
+  - enabled: 1
+    path: Assets/Scenes/NinaEndScenes/EndScene.unity
+    guid: dad06dbb4ee717146a9571989faed46b
   m_configObjects: {}
