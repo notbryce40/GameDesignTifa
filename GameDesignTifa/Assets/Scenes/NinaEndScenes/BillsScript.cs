@@ -7,9 +7,16 @@ public class BillsScript : MonoBehaviour
 {
     public void OnBillsButton()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("EndScene");
 
     }
+
+     public void OnExitButton()
+    {
+        SceneManager.LoadScene("SampleScene");
+
+    }
+
 
 
     /* // Start is called before the first frame update

@@ -76,6 +76,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\_GameDesignTifa\UI\CoinCounterUI.cs" />
+    <Compile Include="Assets\Scenes\NinaEndScenes\BillsScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\_GameDesignTifa\UI\TimeManager.cs" />
     <Compile Include="Assets\_GameDesignTifa\Scripts\Register.cs" />
